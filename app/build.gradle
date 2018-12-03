@@ -1,0 +1,72 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "test.alexevtushik.justapptest"
+        minSdkVersion 19
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    def appCompatVersion = '1.0.2'
+    def fragmentVersion = '1.0.0'
+    def materialVersion = '1.0.0-rc01'
+    def lifecycleExtensionsVersion = '2.0.0'
+    def lifecycleViewModelVersion = '2.0.0-rc01'
+    def recyclerViewVersion = '1.0.0'
+    def constraintLayoutVersion = '1.1.3'
+    def adapterDelegatesVersion = '4.0.0'
+    def kapsuleVersion = '0.3'
+    def ciceroneVersion = '4.0.2'
+    def rxKotlinVersion = '2.1.0'
+    def rxJavaVersion = '2.1.12'
+    def rxAndroidVersion = '2.0.2'
+    def rxBindingVersion = '2.1.1'
+    def jsonApiConverterVersion = '0.9'
+    def retrofitVersion = '2.4.0'
+    def picassoVersion = '2.5.2'
+    def timberVersion = '4.7.1'
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion"
+    implementation "androidx.appcompat:appcompat:$appCompatVersion"
+    implementation "androidx.fragment:fragment:$fragmentVersion"
+    implementation "com.google.android.material:material:$materialVersion"
+    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycleExtensionsVersion"
+    implementation "androidx.lifecycle:lifecycle-viewmodel:$lifecycleViewModelVersion"
+    implementation "androidx.recyclerview:recyclerview:$recyclerViewVersion"
+    implementation "androidx.constraintlayout:constraintlayout:$constraintLayoutVersion"
+    implementation "com.hannesdorfmann:adapterdelegates4:$adapterDelegatesVersion"
+    implementation "space.traversal.kapsule:kapsule-core:$kapsuleVersion"
+    implementation "ru.terrakok.cicerone:cicerone:$ciceroneVersion"
+    implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    implementation "com.squareup.retrofit2:converter-jackson:$retrofitVersion"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion"
+    implementation "com.github.jasminb:jsonapi-converter:$jsonApiConverterVersion"
+    implementation "io.reactivex.rxjava2:rxkotlin:$rxKotlinVersion"
+    implementation "io.reactivex.rxjava2:rxjava:$rxJavaVersion"
+    implementation "io.reactivex.rxjava2:rxandroid:$rxAndroidVersion"
+    implementation "com.jakewharton.rxbinding2:rxbinding:$rxBindingVersion"
+    implementation "com.squareup.picasso:picasso:$picassoVersion"
+    implementation "com.jakewharton.timber:timber:$timberVersion"
+
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">JustAppTest</string>
+
+    <string name="notifications_label_notifications">Notifications</string>
+    <string name="notifications_label_favorite_notification">Favorites notification</string>
+    <string name="notifications_label_online_notification">Online notification</string>
+    <string name="notifications_label_characteristics_notification">Characteristics notification</string>
+    <string name="notifications_label_contacts_notification">Contacts notification</string>
+    <string name="notifications_label_career_notification">Career notification</string>
+    <string name="notifications_label_performance_notification">Performance notification</string>
+    <string name="notifications_label_update_now">Update now</string>
+    <string name="notifications_label_update_later">Update later</string>
+    <string name="notifications_label_accept">Accept</string>
+    <string name="notifications_label_decline">Decline</string>
+    <string name="notifications_label_my_profile">My profile</string>
+    <string name="notifications_label_updated_your_characteristics">Update your characteristics!</string>
+    <string name="notifications_label_improve_your_performance">Improve you performance!</string>
+    <string name="notifications_label_congratulations">Congratulations, Michael!</string>
+    <string name="notifications_message_added_you_to_favorite">%1$s %2$s added you to favorites</string>
+    <string name="notifications_message_wants_add_you_to_contacts">%1$s %2$s wants to add you to contacts</string>
+    <string name="notifications_message_profile_available_online">%1$s %2$s, who has not been in JUST for a long time, is available online</string>
+    <string name="notifications_message_characteristics_updated">You have not updated your athlete performance for a long time. Set the indicators of your characteristics to the current values, so that everyone will know about your victories!</string>
+    <string name="notifications_message_career_confirmed">Your career as an athlete has been successfully confirmed. Now you will appear in the search for professional athletes. We wish you professional success! Yours faithfully, JUST.</string>
+    <string name="notifications_message_improve_performance">Over the past month, your profile was viewed by %d people. To improve performance, we recommend that you fully fill out your profile information.</string>
+    <string name="notifications_error_something_went_wrong">We\'re sorry, something went wrong</string>
+</resources>

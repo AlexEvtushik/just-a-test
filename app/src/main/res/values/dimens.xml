@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="screen_margin_large">30dp</dimen>
+    <dimen name="screen_margin_bigger">24dp</dimen>
+    <dimen name="screen_margin_big">20dp</dimen>
+    <dimen name="screen_margin_normal">16dp</dimen>
+    <dimen name="screen_margin_small">8dp</dimen>
+    <dimen name="screen_margin_mini">4dp</dimen>
+
+    <dimen name="notification_icon_size">42dp</dimen>
+    <dimen name="notification_icon_mark_size">20dp</dimen>
+    <dimen name="notification_icon_mark_margin">28dp</dimen>
+    <dimen name="notification_action_height">36dp</dimen>
+    <dimen name="notification_action_top_margin">11dp</dimen>
+    <dimen name="notification_date_top_margin">14dp</dimen>
+    <dimen name="notification_big_icon_size">110dp</dimen>
+
+    <dimen name="items_separator_height">1dp</dimen>
+</resources>
